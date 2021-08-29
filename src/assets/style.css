@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+.mx-2 {
+	margin-right:  0.5rem;
+	margin-left:  0.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 6px;
+    padding: 1.2rem;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.nav-container {
+    width: 100vw;
+    margin-bottom: 1rem;
+    background-color: #ff5252;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.kozi-input__control {
+    padding: 0.5rem;
+    width: 100%;
+    outline: none;
+    border-radius: 8px;
+    border-width: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.btn {
+    border-radius: 8px;
+    padding: 0.4rem 1rem;
+    outline: none;
+    color: #ff5252;
+    background-color: white;
+    border: 1px solid transparent;
+}
+
+.btn-outline {
+        color: white;
+        background: #ff5353;
+        border: 1px solid white;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.product--active {
+    border: 2px solid #1abc90;
+}
+
+.text-red {
+    color: #ff5050;
+}
